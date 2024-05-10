@@ -5,7 +5,7 @@ export function generateHome () {
     // Create HTML elements for home page & append
     // Image
     let img = document.createElement("img");
-    img.src = "https://picsum.photos/500/400"
+    img.src = "https://picsum.photos/1000/500"
     container.appendChild(img);
     // headline
     let h = document.createElement("h1");

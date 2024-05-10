@@ -1,6 +1,7 @@
 import { generateHome } from './home.js';
 import { generateMenu } from './menu.js';
 import { generateContact } from './contact.js';
+import './style.css';
 
 function clearDom() {
     document.getElementById("content").innerHTML = "";
@@ -26,4 +27,6 @@ contactBtn.addEventListener("click", () => {
 });
 
 generateHome();
+
+
 
