@@ -1,1 +1,3 @@
-console.log("Hello webpack");
+import {generateHome} from './home.js';
+
+generateHome();
